@@ -1,0 +1,238 @@
+* {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+header{
+  height: 40px;
+  background-color: black;
+  font-size: 14px;
+}
+
+header > nav > span{
+  color: white;
+  position: relative;
+  left: 70px;
+  bottom: 1px;
+}
+.bbc-logo{
+  position: relative;
+  top: 5px;
+  left: 20px;
+  height: 28px;
+  width: 6%;
+}
+
+
+li{
+  position: relative;
+  left: 15%;
+  bottom: 56px;
+  display: inline-block;
+  list-style-type: none;
+  margin: 10px;
+  border-left: thin solid lightgrey;
+  padding: 15px 20px;
+  height: 40px;
+}
+
+li a{
+  text-decoration: none;
+  color: white;
+}
+
+.fa-sort-desc{
+  position: relative;
+  left: 14%;
+  bottom: 60px;
+  color: white;
+}
+
+.fa-user-circle{
+  color:white;
+  position: relative;
+  left: 60px;
+}
+
+.nav-search{
+  position: relative;
+  bottom: 110px;
+  margin-left: 86%;
+}
+
+.fa-search{
+  position: relative;
+  left: 97.5%;
+  bottom: 128px;
+}
+
+#main-container{
+  height: 470px;
+  margin-top: -20px;
+  background-color: lightgrey;
+}
+
+section > h3{
+  margin-bottom: -40px;
+}
+
+.bbc-com{
+  position: relative;
+  font-size: 20px;
+  margin-left: 20px;
+  top: 30px;
+  font-weight: lighter;
+}
+
+.main-date{
+  margin-left: 82%;
+  position: relative;
+  font-size: 20px;
+  top: 30px;
+  font-weight: lighter;
+}
+
+#trump-pointing{
+  background: url(http://themillenniumreport.com/wp-content/uploads/2017/01/2b8093531423_mediaitem93531422.jpg);
+  background-size: cover;
+  opacity: .9;
+  float:left;
+  height: 370px;
+  width: 44%;
+  margin: 60px 20px 20px 20px;
+}
+
+#US{
+  background: url(https://ichef.bbci.co.uk/news/660/cpsprodpb/118C/production/_93529440_036427656-1.jpg);
+  opacity: .9;
+  background-size: cover;
+  float:left;
+  height: 175px;
+  width: 23%;
+  margin: 60px 20px 20px 20px;
+}
+
+#US-canada{
+  background: url(http://www.trbimg.com/img-584ff9c9/turbine/fl-es-trump-elige-rex-tillerson-secretario-estado-20161213);
+  opacity: .9;
+  background-size: cover;
+  float:left;
+  height: 175px;
+  width: 23%;
+  margin: 60px 20px 20px 20px;
+
+}
+
+#education{
+  background: url(https://ichef-1.bbci.co.uk/news/660/cpsprodpb/184F/production/_93532260_004745260.jpg);
+  opacity: .9;
+  float:left;
+  height: 175px;
+  width: 23%;
+  margin: 0px 20px 20px 20px;
+  background-size: cover;
+}
+
+#capital{
+  background: url(http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_720/images/live/p0/4j/90/p04j90hx.jpg);
+  opacity: .9;
+  background-size: cover;
+  float:left;
+  height: 175px;
+  width: 23%;
+  margin: 0px 20px 20px 20px;
+}
+
+.box{
+  position: relative;
+  top: 220px;
+}
+
+div > h2{
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-left: 24px;
+}
+
+div > p{
+  color: white;
+  font-weight: lighter;
+  margin-left: 24px;
+}
+
+div > h3{
+  position: relative;
+  bottom: 12px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: lighter;
+  border-left: thin solid red;
+  margin-left: 22px;
+  padding-left: 5px;
+}
+
+section > h2{
+  position: relative;
+  top: 40%;
+  font-size: 17px;
+  color: white;
+  font-weight: lighter;
+  margin-left: 10px;
+}
+
+section > h4{
+  position: relative;
+  top: 40%;
+  font-size: 13px;
+  color: white;
+  font-weight: lighter;
+  margin-left: 10px;
+  padding-left: 5px;
+  border-left: thin solid red;
+}
+
+h5{
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  margin-left: 21px;
+  margin-bottom: -12px;
+  border-left: thin solid red;
+}
+
+#main-container2{
+  clear: both;
+  height: 295px;
+  margin-top: -20px;
+}
+
+#picture-left{
+  background: url(https://ichef-1.bbci.co.uk/news/660/cpsprodpb/720E/production/_93589192_036993323.jpg);
+  background-size: cover;
+  float:left;
+  height: 200px;
+  margin: 20px 20px 20px 20px;
+  width: 30%;
+}
+
+#picture-center{
+  background: url(https://ichef-1.bbci.co.uk/news/660/cpsprodpb/15DE7/production/_95157598_gettyimages-631482480.jpg);
+  background-size: cover;
+  float:left;
+  height: 200px;
+  margin: 20px 20px 20px 20px;
+  width: 30%;
+}
+
+#picture-right{
+  background: url(https://thumb7.shutterstock.com/display_pic_with_logo/65904/65904,1179678483,1/stock-photo-bacteria-3340625.jpg);
+  float:left;
+  height: 200px;
+  margin: 20px 20px 20px 20px;
+  width: 30%;
+
+}
